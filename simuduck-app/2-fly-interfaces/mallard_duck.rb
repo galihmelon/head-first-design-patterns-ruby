@@ -1,3 +1,6 @@
+# typed: true
+# frozen_string_literal: true
+
 class MallardDuck < Duck
   extend T::Sig
   include Flyable
